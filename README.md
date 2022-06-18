@@ -1,6 +1,6 @@
 ## Summary of WP3-related discussion at Riga hackathon Friday 17 - Monday 20 June 2022 
 
-* Task 1 of WP3 is about creating interfaces between Cc4s and representative ab-initio codes from all code families (NAO, FLAPW, PAW)
+* Task 1 of WP3 is to create interfaces between Cc4s and representative ab-initio codes from all code families (NAO, FLAPW, PAW)
 * As part of WP3 an interface between Cc4s and FHI-aims (NAO) has already been created and published.
 * Next steps will involve the creation of interfaces to *Exciting* (FLAPW) and *ABINIT* (PAW)
 
@@ -20,11 +20,12 @@ the numerical data of the correpsonding tensor. The \*.elements are usually in b
 
 ### The CoulombVertex files
 
-A short description of the definition of the CoulombVertex can be found [](here).
+A short description of the definition of the CoulombVertex can be found [https://manuals.cc4s.org/user-manual/objects/CoulombVertex.html#ID-CoulombVertex](here).
 
 ### The EigenEnergies files
 
-A short description of the definition of the EigenEerngies can be found [](here). We assume that these eigenenergies correspond to Hartree-Fock one-electron energies.
+A short description of the definition of the EigenEerngies can be found [https://manuals.cc4s.org/user-manual/objects/EigenEnergies.html](here).
+We assume that these energies correspond to Hartree-Fock one-electron energies.
 
 ### Example input files
 
@@ -40,6 +41,5 @@ A manual that describes how these calculations can be performed can be found [ht
 
 The workflow of these calculations is depicted below.
 
-![](./img/cc4s-flowchart.pdf)
-
+![Cc4s flowchart](./img/cc4s-flowchart.png "Cc4s flowchart")
 
